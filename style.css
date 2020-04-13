@@ -1,0 +1,1290 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-size: 100%;
+}
+
+#NAME {
+    display: flex;
+    justify-content: flex-start;
+    width: 100vw;
+    height: 100vh;
+    background: black;
+}
+
+#F1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#F2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    top: 0;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#F3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+    left: 2.5rem;
+    top: 5rem;
+}
+
+#Fb1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#Fb2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    top: 0;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#Fb3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#Ftop_1 {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+   
+
+}
+
+#Ftop_2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: -5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Fbot {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: -12.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);  
+}
+
+#Fbot_2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: -7.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);   
+}
+
+#Fbot_3 {
+    width: 5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: -2.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);   
+}
+
+#Fright_1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 7.5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}  
+
+#Fright_2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    bottom: -5rem;
+    left: 2.5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#Fright_3 {
+    width: 2.5rem;
+    height: 5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    bottom: -12.5rem;
+    left: 2.5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#Fright_4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    bottom: -7.5rem;
+    left: 5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);   
+}
+
+#Fleft {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    bottom: -12.5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#F_cnt {
+    position: relative;
+    /* transform: rotateY(-30deg) rotateX(20deg); */
+    transform-style: preserve-3d;
+    perspective: 500px;
+    animation-name: F-anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#F {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 6rem;
+}
+
+#L {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 10rem;
+}
+
+#L_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    /* transform: rotateY(-30deg) rotateX(-20deg); */
+    animation-name: F-anim2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#L1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#L2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    top: 10rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#Lb1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#Lb2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    top: 10rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#Ltop_1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Ltop_2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Lright_1 {
+    width: 2.5rem;
+    height: 10rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 2.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Lright_2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 10rem;
+    left: 7.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Lleft {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#Lbot {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 10rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 12rem;
+}
+
+#O_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    /* transform: rotateY(-35deg) rotateX(20deg); */
+    animation-name: F-animYN;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#O1F {
+    width: 2.5rem;
+    height: 12.5rem;
+    position: absolute;
+    background: blue;
+    opacity: .5;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#O1F2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    position: absolute;
+    left: 5rem;
+    background: blue;
+    opacity: .5;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#O1FT {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 2.5rem;
+    background: blue;
+    opacity: .5;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#O1FB {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 10rem;
+    left: 2.5rem;
+    background: blue;
+    opacity: .5;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#O1B {
+    width: 2.5rem;
+    height: 12.5rem;
+    position: absolute;
+    background: yellow;
+    opacity: .5;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#O1B2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    position: absolute;
+    left: 5rem;
+    background: yellow;
+    opacity: .5;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#O1BT {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    left: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#O1BB {
+    width: 2.5rem;
+    height: 2.5rem;
+    position: absolute;
+    top: 10rem;
+    left: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#O1R {
+    width: 2.5rem;
+    height: 7.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1R2 {
+    width: 2.5rem;
+    height: 7.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 5rem;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1RT {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#O1RB {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1L {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1L2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 7.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1T {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#O1Bot {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 10rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#R {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 11rem;
+}
+
+#R_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    /* transform: rotateY(30deg) rotateX(-10deg); */
+    animation-name: F-anim3;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#RF1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#RF2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#RF3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 5rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#RF4 {
+    width: 5rem;
+    height: 2.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#RF5 {
+    width: 2.5rem;
+    height: 5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 5rem;
+    transform: skewx(45deg) translate3d(0, 0, 1.25rem);
+}
+
+#RB1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#RB2 {
+    width: 5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 2.5rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#RB3 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 5rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#RB4 {
+    width: 5rem;
+    height: 2.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#RB5 {
+    width: 2.5rem;
+    height: 5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 5rem;
+    transform: skewx(45deg) translate3d(0, 0, -1.25rem);
+}
+
+#RO1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO2 {
+    width: 7.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO3 {
+    width: 2.5rem;
+    height: 7.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 5rem;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO4 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO5 {
+    width: 2.5rem;
+    height: 5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 5rem;
+    transform: skewX(45deg) rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO6 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    left: 7.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO7 {
+    width: 2.5rem;
+    height: 5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    left: 2.5rem;
+    transform: skewX(45deg) rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO8 {
+    width: 2.5rem;
+    height: 5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 7.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RO9 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RIT {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RIB {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RIL {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#RIR {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 2.5rem;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#I {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 15rem;
+}
+
+#I_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    /* transform: rotateY(-30deg) rotateX(-10deg); */
+    animation-name: F-anim;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#IF {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#IB {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#IT {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#IBot {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#IL {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    transform: rotateY(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#IR {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#A {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 7rem;
+}
+
+#A_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    /* transform: rotateY(-10deg) rotateX(20deg); */
+    animation-name: F-anim2;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#AF1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: skewX(-10deg) translate3d(0, 0, 1.25rem);
+}
+
+#AF2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 4.7rem;
+    transform: skewX(10deg) translate3d(0, 0, 1.25rem);
+}
+
+#AF3 {
+    width: 0;
+    height: 0;
+    border-left: .45rem solid transparent;
+    border-right: .45rem solid transparent;
+    border-bottom: 2.5rem solid blue;
+    opacity: .5;
+    position: absolute;
+    left: 3.163802rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#AF4 {
+    width: 2.7rem;
+    height: 0;
+    border-left: 0.475rem solid transparent;
+    border-right: 0.475rem solid transparent;
+    border-bottom: 2.7rem solid blue;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.25rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#AB1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: skewX(-10deg) translate3d(0, 0, -1.25rem);
+}
+
+#AB2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 4.7rem;
+    transform: skewX(10deg) translate3d(0, 0, -1.25rem);
+}
+
+#AB3 {
+    width: 0;
+    height: 0;
+    border-left: .45rem solid transparent;
+    border-right: .45rem solid transparent;
+    border-bottom: 2.5rem solid yellow;
+    opacity: .5;
+    position: absolute;
+    left: 3.163802rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#AB4 {
+    width: 2.7rem;
+    height: 0;
+    border-left: 0.475rem solid transparent;
+    border-right: 0.475rem solid transparent;
+    border-bottom: 2.7rem solid yellow;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.25rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#AT {
+    width: 5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    left: 1.1rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#ABot1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    left: -1.1rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#ABot2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    left: 5.8rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#ABot3 {
+    width: 2.7rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 7.695rem;
+    left: 2.25rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#ABot4 {
+    width: 1.8rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.7rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#ABot5 {
+    width: .9rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: 3.15rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS1 {
+    width: 2.5rem;
+    height: 12.7rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: -2.485rem;
+    top: -.305rem;
+    transform: rotateZ(10deg) rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS2 {
+    width: 2.5rem;
+    height: 12.7rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 7.1795rem;
+    top: -.305rem;
+    transform: rotateZ(-10deg) rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS3 {
+    width: 2.5rem;
+    height: 4.88rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 1.8044rem;
+    top: 7.875rem;
+    transform: rotateZ(10deg) rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS4 {
+    width: 2.5rem;
+    height: 4.88rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 2.8982rem;
+    top: 7.875rem;
+    transform: rotateZ(-10deg) rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS5 {
+    width: 2.5rem;
+    height: 2.5125rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 1.775rem;
+    top: 2.7125rem;
+    transform: rotateZ(-10deg) rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#AS6 {
+    width: 2.5rem;
+    height: 2.5125rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 2.915rem;
+    top: 2.7125rem;
+    transform: rotateZ(10deg) rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#N {
+    perspective: 500px;
+    margin-top: 15rem;
+    margin-left: 13rem;
+}
+
+#N_cnt {
+    position: relative;
+    transform-style: preserve-3d;
+    perspective: 500px;
+    transform: rotateY(0deg) rotateX(0deg);
+    animation-name: F-animYN;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+#NF1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#NF2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 6.85rem;
+    transform: translate3d(0, 0, 1.25rem);
+}
+
+#NF3 {
+    width: 2.5rem;
+    height: 8.7rem;
+    background: blue;
+    opacity: .5;
+    position: absolute;
+    left: 3.425rem;
+    top: 1.9rem;
+    transform:  rotateZ(-30deg) skewY(-60deg) translate3d(0, 0, 1.25rem);
+}
+
+#NB1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#NB2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 6.84rem;
+    transform: translate3d(0, 0, -1.25rem);
+}
+
+#NB3 {
+    width: 2.5rem;
+    height: 8.7rem;
+    background: yellow;
+    opacity: .5;
+    position: absolute;
+    left: 3.425rem;
+    top: 1.9rem;
+    transform:  rotateZ(-30deg) skewY(-60deg) translate3d(0, 0, -1.25rem);
+}
+
+#NT1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#NT2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    bottom: 0;
+    left: 6.85rem;
+    transform: rotateX(90deg) translate3d(0, 0, -1.25rem);
+}
+
+#NT3 {
+    width: 8.7rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 2.5rem;
+    left: .35rem;
+    transform: rotateZ(60deg) rotateX(90deg);
+}
+
+#NBot1 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 12.5rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NBot2 {
+    width: 2.5rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 6.25rem;
+    left: 6.85rem;
+    transform: rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NBot3 {
+    width: 8.7rem;
+    height: 2.5rem;
+    background: green;
+    opacity: .5;
+    position: absolute;
+    top: 8.125rem;
+    left: -.755rem;
+    transform: rotateZ(60deg) rotateX(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NS1 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    right: 0;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NS2 {
+    width: 2.5rem;
+    height: 12.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    left: 9.35rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NS3 {
+    width: 2.5rem;
+    height: 7.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 5rem;
+    left: 2.5rem;
+    transform: rotateY(-90deg) translate3d(0, 0, 1.25rem);
+}
+
+#NS4 {
+    width: 2.5rem;
+    height: 7.5rem;
+    background: red;
+    opacity: .5;
+    position: absolute;
+    top: 0;
+    left: 4.35rem;
+    transform: rotateY(90deg) translate3d(0, 0, 1.25rem);
+}
+
+@keyframes F-anim {
+    from {
+        transform: rotateX(0) rotateY(-30deg);
+    }
+   
+    to {
+        transform: rotateX(360deg) rotateY(-30deg);
+    }
+}
+
+@keyframes F-anim2 {
+    from {
+        transform: rotateX(20deg) rotateY(0);
+    }
+   
+    to {
+        transform: rotateX(20deg) rotateY(-360deg);
+    }
+}
+
+@keyframes F-anim3 {
+    from {
+        transform: rotateX(20deg) rotateY(0);
+    }
+   
+    to {
+        transform: rotateX(20deg) rotateY(360deg);
+    }
+}
+
+@keyframes F-animYN {
+    from {
+        transform: rotateX(0deg) rotateY(20deg);
+    }
+   
+    to {
+        transform: rotateX(-360deg) rotateY(20deg);
+    }
+}
